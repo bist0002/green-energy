@@ -1,0 +1,165 @@
+html
+/*     font-family: 'Outfit', sans-serif;
+
+    font-family: 'Ubuntu', sans-serif; */
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+Body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Outfit', sans-serif;
+    color: #3d3d3d;
+}
+
+header{
+    background-color: rgb(104, 102, 105);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-bottom: 2rem;
+    padding: 2rem 1rem;
+}
+
+nav{
+    padding: 0rem;
+    margin: 0rem;
+    
+}
+nav ul{
+    margin: 0rem;
+    padding: 0rem;
+    
+}
+
+nav ul li{
+    list-style: none;
+    
+    margin: 0rem 0rem 0rem 0rem;
+    border-style: solid;
+    border-radius: 0.2rem;
+    border-color: rgb(228, 228, 228);
+    margin-right: 1rem;
+}
+nav ul li a{
+    text-decoration: none;
+    border-radius: 0.2rem;
+    color: rgb(219, 219, 219);
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.banner {
+    display: flex;
+    align-items: flex-end;
+    margin-right: 2rem;
+}
+.banner img{
+    width: 4rem;
+    border-style: solid;
+    border-color: beige;
+    border-radius: 100%;
+}
+
+.banner h1{
+    font-size: 2rem;
+    margin: 0rem;
+    padding-left:1rem;
+    color: #86c70f;
+}
+
+nav ul {
+    display:flex;
+    justify-content: space-around;
+}
+
+.masthead{
+    padding: 2rem 5rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.13), rgba(0, 0, 0, 0.5)),  url("../images/wind.jpg");
+    height: 8rem;
+    background-position: center;
+
+}
+
+.masthead h1, .masthead p{
+    color: aliceblue;
+}
+.tabs{
+    padding-left: 2rem;
+}
+.tabs div{
+    margin-right: 1rem
+}
+.controls button{
+    margin-right: 1rem;
+    font-size: 1.4rem;
+    padding: 0.2rem 0.6rem;
+}
+
+.box{
+    display: flex;
+}
+
+.box p{
+    padding-left: 1rem;
+}
+
+
+.socials{
+    display: flex;
+    justify-content: center
+}
+
+.socials a{
+    font-size: 3rem;
+    margin-right: 3rem;
+    color: rgb(122, 122, 122);
+}
+
+@media only screen and (max-width: 30rem){
+    .banner img{
+        width: 3rem;}
+    .logo h1{
+        font-size: 1.5rem;
+}
+header {
+    flex-direction: row;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+nav ul li {
+    margin-top: 1rem;
+}
+nav ul li a{
+    font-size: 1.3rem;
+}
+.masthead{
+    height: 15rem;
+}
+.box{
+
+    flex-wrap: wrap;
+}
+.box p{
+    padding-left: 1rem;
+}
+
+}
